@@ -1,0 +1,27 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  /*Backgroud*/
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../img/fundo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main{
+  /*Container*/
+  padding:50px 20px;
+
+}
+
+img{
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+}
