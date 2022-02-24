@@ -39,3 +39,7 @@ body{
 .title_text_youtube{
   color: var(--color-secundario);
 }
+
+.card_forms{
+  background-color: var(--background-color);
+}
