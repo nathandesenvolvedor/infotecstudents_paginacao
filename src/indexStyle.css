@@ -1,59 +1,41 @@
 :root{
-  --background-color: #ffffff;
+  --background-color: rgba(0, 0, 0, 0.13);
   --color:#0088D6;
   --color-secundario:#020237;
-  --padding-container: 0vw 6vw;
+  --color-terciario:#ffff;
+  --padding-container: 0vw 5vw;
 }
 
 *{
   padding: 0px;
   margin: 0px;
-  background-color:var(--background-web);
 }
 
 body{
-  /*Backgroud*/
-  margin: 0px;
-  padding: 0px;
-  background-color: var(--background-web);
-
+  background-image: url(../img/backgroud-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--color-terciario);
 }
 
-img{
-  padding-top: 20px;
-  width: 320px;
-  padding: var(--padding-container);
+.nav_top{
+  background-color: var(--background-color);
 }
 
-.container{
- padding: var(--padding-container);
-  
+.background_card{
+  background-color:rgba(255, 255, 255, 0);
+  border: none;
 }
 
-.boas_vindas{
-  display: flex;
-  justify-content: center;
-  font-size: 4.5vw;
-  color: var(--color);
-}
-
-.plataformas{
-display: grid;
-grid-template-columns: auto auto;
-margin-top: 4em;
-}
-
-.img_youtube{
+.logo_youtube{
   width: 18vw;
 }
 
-.title_youtube{
-  font-size:5vw;
+.text_click_youtube{
   color: var(--color-secundario);
 }
 
-.text_youtube{
-  font-size: 3.2vw;
+.title_text_youtube{
+  color: var(--color-secundario);
 }
-
-
