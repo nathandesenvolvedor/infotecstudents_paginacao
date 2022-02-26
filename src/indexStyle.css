@@ -40,6 +40,29 @@ body{
   color: var(--color-secundario);
 }
 
+.btns{
+  background-color: var(--color-secundario);
+  color:var(--color)
+}
+
+.btns:hover{
+  color: var(--color-terciario);
+}
+
 .card_forms{
   background-color: var(--background-color);
+}
+
+.footer_background{
+  background-color: var(--background-color);
+  padding: var(--padding-container);
+}
+
+.card_footer{
+  background-color: var(--background-color);
+  width: 100%;
+}
+
+.name_nathan_link{
+  color: var(--color-terciario);
 }
