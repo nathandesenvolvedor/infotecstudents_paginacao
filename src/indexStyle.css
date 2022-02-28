@@ -66,3 +66,9 @@ body{
 .name_nathan_link{
   color: var(--color-terciario);
 }
+
+/*Page form*/
+
+.form_voltar{
+cursor: pointer;
+}
