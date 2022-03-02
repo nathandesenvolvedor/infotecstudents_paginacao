@@ -1,5 +1,5 @@
 :root{
-  --background-color: rgba(0, 0, 0, 0.13);
+  --background-color: rgba(0, 0, 0, 0.129); 
   --color:#0088D6;
   --color-secundario:#020237;
   --color-terciario:#ffff;
@@ -67,8 +67,18 @@ body{
   color: var(--color-terciario);
 }
 
-/*Page form*/
+.photo_nathan{
+  border-radius:75%;
+  width: 25vw;
+ /* float: left;*/
+}
 
-.form_voltar{
-cursor: pointer;
+
+
+
+/*Page 2 - form*/
+
+.footer_page{
+  background-color: var(--background-color);
+  width: 100%;
 }
