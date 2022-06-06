@@ -1,84 +1,20 @@
-:root{
-  --background-color: rgba(0, 0, 0, 0.129); 
-  --color:#0088D6;
-  --color-secundario:#020237;
-  --color-terciario:#ffff;
+:root {
+  --background-color: rgba(0, 0, 0, 0.129);
+  --color: #0088D6;
+  --color-secundario: #020237;
+  --color-terciario: #ffff;
   --padding-container: 0vw 5vw;
 }
 
-*{
+* {
   padding: 0px;
   margin: 0px;
 }
 
-body{
+body {
   background-image: url(../img/backgroud-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: var(--color-terciario);
-}
-
-.nav_top{
-  background-color: var(--background-color);
-}
-
-.background_card{
-  background-color:rgba(255, 255, 255, 0);
-  border: none;
-}
-
-.logo_youtube{
-  width: 18vw;
-}
-
-.text_click_youtube{
-  color: var(--color-secundario);
-}
-
-.title_text_youtube{
-  color: var(--color-secundario);
-}
-
-.btns{
-  background-color: var(--color-secundario);
-  color:var(--color)
-}
-
-.btns:hover{
-  color: var(--color-terciario);
-}
-
-.card_forms{
-  background-color: var(--background-color);
-}
-
-.footer_background{
-  background-color: var(--background-color);
-  padding: var(--padding-container);
-}
-
-.card_footer{
-  background-color: var(--background-color);
-  width: 100%;
-}
-
-.name_nathan_link{
-  color: var(--color-terciario);
-}
-
-.photo_nathan{
-  border-radius:75%;
-  width: 25vw;
- /* float: left;*/
-}
-
-
-
-
-/*Page 2 - form*/
-
-.footer_page{
-  background-color: var(--background-color);
-  width: 100%;
 }
